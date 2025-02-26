@@ -1,0 +1,57 @@
+/* Center text alignment */
+.App {
+  text-align: center;
+}
+
+/* Logo styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Logo animation */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header styles */
+.App-header {
+  background: linear-gradient(270deg, #ff7e5f, #feb47b, #6a11cb, #2575fc);
+  background-size: 400% 400%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  animation: gradientAnimation 8s ease infinite;
+}
+
+/* Gradient background animation */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+  transition: color 0.3s ease-in-out;
+}
+
+.App-link:hover {
+  color: #ff7e5f;
+}
