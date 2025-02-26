@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://your-backend-url.com/api'; // Replace with actual backend URL
+const API_BASE_URL = 'https://accredian-backend-task-bjlf.onrender.com/api'; // render link
 
 export const submitReferral = async (referralData) => {
   try {
